@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400&display=swap');
+
+body{
+    margin: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.google-logo{
+    margin: 7.5rem 0 3rem 0;
+}
+.google-logo h1{
+    font-weight: 400;
+    color: rgb(124, 124, 124);
+}
+.google-logo span{
+    font-weight: 700;
+}
+
+span.a{
+    color:#4486F5;
+}
+span.b{
+    color:#EA4335;
+}
+span.c{
+    color:#FABC08;
+}
+span.d{
+    color:#4486F5;
+}
+span.e{
+    color:#34A853;
+}
+span.f{
+    color:#EA4335;
+}
+
+h1{
+    font-weight: 400;
+    font-size:1.8rem;
+}
+
+p{
+    font-size: 0.92rem;
+    color: rgb(83, 83, 83);
+}
+
+a{
+    text-decoration: none;
+    color:#1A73E8;
+}
+
+input[type="text"]{
+    margin-top: 1rem;
+    width:99%;
+    height:5.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color:#F1F3F4;
+}
+
+ input[type="text"]::placeholder {
+     padding-left: 1rem;
+} 
+
+button{
+    display: block;
+}
+
+button.btn{
+    height:2.3rem;
+    width: 8.5rem;
+    border: none;
+    border-radius: 4px;
+    margin:1.8rem 0 3rem 0;
+    color: rgb(255, 255, 255);
+    background-color:#1A73E8;
+}
+
+.footer{
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+}
+p.footer-text{
+    color:unset;
+    font-size: 0.80rem;
+}
+
+button.footer-btn{
+    width: 12.5rem;
+    background: transparent;
+    border: 1px solid  lightgrey;
+    border-radius:30rem;
+    padding:5px 8px;
+    font-size: 0.90rem;
+}
+
+button .fa-user-circle-o{
+color:#1A73E8;
+font-size:1.1rem;
+}
