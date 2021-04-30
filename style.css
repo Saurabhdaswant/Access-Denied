@@ -60,6 +60,7 @@ input[type="text"]{
 
  input[type="text"]::placeholder {
      padding-left: 1rem;
+     text-align: center;
 } 
 
 button{
